@@ -1,7 +1,6 @@
-import '@/styles/globals.css'
-import { TweedFrontendSdkProvider } from '@paytweed/frontend-sdk-react';
-import type { AppProps } from 'next/app'
-import { useCallback } from 'react';
+import { TweedFrontendSdkProvider } from "@paytweed/frontend-sdk-react";
+import type { AppProps } from "next/app";
+import { useCallback } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
   const sendMessageToBackend = useCallback(async (message: string) => {
@@ -15,5 +14,14 @@ export default function App({ Component, pageProps }: AppProps) {
     return answer;
   }, []);
 
-  return <div style={{width: '100vw', height: '100vh'}}><TweedFrontendSdkProvider environment={3} sendMessageToBackend={sendMessageToBackend}><Component {...pageProps} /></TweedFrontendSdkProvider></div>
+  return (
+    <div style={{ width: "99vw", height: "90vh" }}>
+      <TweedFrontendSdkProvider
+        environment={0}
+        sendMessageToBackend={sendMessageToBackend}
+      >
+        <Component {...pageProps} />
+      </TweedFrontendSdkProvider>
+    </div>
+  );
 }
