@@ -1,34 +1,13 @@
 import { SubTitle, Table, Td, Th } from "@/public/style";
-const chains = ["tezos", "polygon", "ethereum"];
-interface CryptoCurrencyToken {
-  contractAddress: string;
-  decimals: number;
-  logo: string;
-  name: string;
-  symbol: string;
-}
+import { TokenTransaction } from "@paytweed/shared-sdk";
 
-interface EthereumData {
-  createdAt: string;
-  cryptoCurrencyAmount: string;
-  cryptoCurrencyToken: CryptoCurrencyToken;
-  direction: string;
-  fromAddress: string;
-  id: string;
-  status: string;
-  toAddress: string;
-  type: string;
-}
+const chains = ["tezos", "polygon", "ethereum"];
 
 interface Data {
-  ethereum?: EthereumData[];
-  polygon: any[];
-  tezos: any[];
+  [k: string]: TokenTransaction[];
 }
 
-const TransactionsList: React.FC<{ data: Data; chain: string }> = ({
-  data,
-}) => {
+const TransactionsList: React.FC<{ data: Data }> = ({ data }) => {
   return (
     <>
       {chains.map((chain) => (

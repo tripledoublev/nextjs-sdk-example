@@ -27,7 +27,7 @@ const MyTransactions = () => {
   });
   if (transactionsLoading) return <div>Loading</div>;
   if (transactionsError) return <div>Error: {transactionsError}</div>;
-  return <TransactionsList data={transactions} />;
+  return !transactions ? null : <TransactionsList data={transactions} />;
 };
 
 const WalletData = () => {
@@ -37,7 +37,7 @@ const WalletData = () => {
   };
   const [logutBtnIsClicked, setLogutBtnIsClicked] = useState(false);
   const [displayTransactions, setdisplayTransactions] = useState(false);
-  const [currentChain, setCurrentChain] = useState(chains.at(0));
+  const [currentChain, setCurrentChain] = useState(chains[0]);
 
   const handleMYTransactionsButton = () =>
     setdisplayTransactions((prev) => !prev);
@@ -88,18 +88,23 @@ const WalletData = () => {
       </Header>
       <Title>Welcome to Tweed Example</Title>
 
-      <MenuItemsLine>
-        {chains.map((entry, idx) => (
-          <ChainButton key={idx} onClick={() => setCurrentChain(entry)}>
-            {entry}
-          </ChainButton>
-        ))}
-      </MenuItemsLine>
-
       <WalletAddress>
         <Address />
         <QrButton onClick={onCreateQR}>QR</QrButton>
       </WalletAddress>
+
+      <MenuItemsLine>
+        {chains.map((chain, idx) => (
+          <ChainButton
+            primary={chain === currentChain}
+            key={idx}
+            onClick={() => setCurrentChain(chain)}
+          >
+            {chain}
+          </ChainButton>
+        ))}
+      </MenuItemsLine>
+
       <Menu>
         <MenuItemsLine>
           <Button onClick={onSendTransaction}>Send Transaction</Button>

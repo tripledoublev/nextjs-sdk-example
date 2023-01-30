@@ -61,9 +61,9 @@ export const WalletAddress = styled.div`
   font-family: Arial, Helvetica, sans-serif;
   align-self: center;
   outline: 2px solid dodgerblue;
-  border-radius: 20px;
-  padding: 15px 30px;
-  margin: 20px 0px 70px 0px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin: 20px 0px 0px 0px;
 `;
 
 export const Menu = styled.div`
@@ -105,7 +105,7 @@ export const QrButton = styled.button`
   }
 `;
 
-export const ChainButton = styled.button`
+export const ChainButton = styled.button<{ primary: boolean }>`
   font-size: 20px;
   border-radius: 20px;
   border: 2px solid dodgerblue;
@@ -115,6 +115,10 @@ export const ChainButton = styled.button`
   background: #fff;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
+  background: ${(props) => (props.primary ? "dodgerblue" : "white")};
+  color: ${(props) => (props.primary ? "white" : "dodgerblue")};
+  transition: background-color 0.8s ease;
+
   :hover {
     transform: scale(1.009);
   }
