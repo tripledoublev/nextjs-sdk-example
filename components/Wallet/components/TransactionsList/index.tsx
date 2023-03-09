@@ -1,7 +1,7 @@
 import { SubTitle, Table, Td, Th } from "@/public/style";
 import { TokenTransaction } from "@paytweed/shared-sdk";
 
-const chains = ["tezos", "polygon", "ethereum"];
+const chains = ["tezosGhost", "polygonMumbai", "ethereumGoerli"];
 
 interface Data {
   [k: string]: TokenTransaction[];
