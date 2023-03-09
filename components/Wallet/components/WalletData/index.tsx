@@ -30,6 +30,8 @@ const MyTransactions = () => {
   return !transactions ? null : <TransactionsList data={transactions} />;
 };
 
+const packageVersion =
+  require("@paytweed/frontend-sdk-react/package.json").version;
 const WalletData = () => {
   const sdk = hooks.useTweedFrontendSDK();
   const onLogout = async () => {
@@ -120,7 +122,10 @@ const WalletData = () => {
         </MenuItemsLine>
       </Menu>
       {displayTransactions && <MyTransactions />}
-      <Powered>Powered by Tweed</Powered>
+      <Powered>
+        <div>Powered by Tweed </div>
+        <div> Next.js | SDK version: {packageVersion}</div>
+      </Powered>
     </Wrapper>
   );
 };
