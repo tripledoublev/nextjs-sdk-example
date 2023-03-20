@@ -255,33 +255,32 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
-"@paytweed/frontend-sdk-react@^0.10.0":
-  "integrity" "sha512-3VVbo0MTwsYHwgKMuTeQk0bozhAcCjDnQUYIT19RItiolziU3kcLv1jk/wNwOdlbZgAmyoe6AZibVjoMK/1iVw=="
-  "resolved" "https://registry.npmjs.org/@paytweed/frontend-sdk-react/-/frontend-sdk-react-0.10.0.tgz"
-  "version" "0.10.0"
+"@paytweed/frontend-sdk-react@^0.11.0":
+  "integrity" "sha512-0arWARY98jTUhRymHo721kZKqkwlffzDf5oC2WcqmkGIryZs0eoF86p83NOKN6HLkntbc441BCGLcTJmFdFSnw=="
+  "resolved" "https://registry.npmjs.org/@paytweed/frontend-sdk-react/-/frontend-sdk-react-0.11.0.tgz"
+  "version" "0.11.0"
   dependencies:
-    "@paytweed/frontend-sdk" "0.10.0"
-    "@paytweed/shared-sdk" "0.10.0"
+    "@paytweed/frontend-sdk" "0.11.0"
+    "@paytweed/shared-sdk" "0.11.0"
     "@tanstack/react-query" "4.19.1"
     "@walletconnect/client" "1.8.0"
     "buffer" "6.0.3"
-    "iframe-resizer-react" "1.1.0"
     "uuid" "8.3.2"
 
-"@paytweed/frontend-sdk@0.10.0":
-  "integrity" "sha512-5OrkHEils+kWhvNWRpEP4Alxbdi81oiqAWqjRjaGpCLJf03rNvPYGEO/wZi9z/XRCCiUryvt195EGFskMuNelQ=="
-  "resolved" "https://registry.npmjs.org/@paytweed/frontend-sdk/-/frontend-sdk-0.10.0.tgz"
-  "version" "0.10.0"
+"@paytweed/frontend-sdk@0.11.0":
+  "integrity" "sha512-/3yJwwsBjIXttFNHkHHm+49iBFNyeMlpLFzlNru6cca40PZQIwm3pXdufPFOvbzN8rbaC/RgTcj26wqy68FrpQ=="
+  "resolved" "https://registry.npmjs.org/@paytweed/frontend-sdk/-/frontend-sdk-0.11.0.tgz"
+  "version" "0.11.0"
   dependencies:
-    "@paytweed/shared-sdk" "0.10.0"
+    "@paytweed/shared-sdk" "0.11.0"
     "@walletconnect/client" "1.8.0"
     "buffer" "6.0.3"
     "uuid" "8.3.2"
 
-"@paytweed/shared-sdk@0.10.0":
-  "integrity" "sha512-C4sdlmR0k6SHch1GYGF2CKHWwPzsIOC4yIWnwzmhnV3NSP9/gXi5APvxNXmYmVDGecs2fR7F4co60Jo5UF6TVQ=="
-  "resolved" "https://registry.npmjs.org/@paytweed/shared-sdk/-/shared-sdk-0.10.0.tgz"
-  "version" "0.10.0"
+"@paytweed/shared-sdk@0.11.0":
+  "integrity" "sha512-ZgVqcArAsoQYWuPmxsyxGVI8hCL9ooD1wLGBbJ2mF+jep0dFvZ0jukEZQKcQ++H7fvpRaRdBtkL5rH/LH99EjA=="
+  "resolved" "https://registry.npmjs.org/@paytweed/shared-sdk/-/shared-sdk-0.11.0.tgz"
+  "version" "0.11.0"
 
 "@pkgr/utils@^2.3.1":
   "integrity" "sha512-wfzX8kc1PMyUILA+1Z/EqoE4UCXGy0iRGMhPwdfae1+f0OXlLqCk+By+aMzgJBzR9AzS4CDizioG6Ss1gvAFJw=="
@@ -1528,19 +1527,6 @@
   "resolved" "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz"
   "version" "1.2.1"
 
-"iframe-resizer-react@1.1.0":
-  "integrity" "sha512-FrytSq91AIJaDgE+6uK/Vdd6IR8CrwLoZ6eGmL2qQMPTzF0xlSV2jaSzRRUh5V2fttD7vzl21jvBl97bV40eBw=="
-  "resolved" "https://registry.npmjs.org/iframe-resizer-react/-/iframe-resizer-react-1.1.0.tgz"
-  "version" "1.1.0"
-  dependencies:
-    "iframe-resizer" "^4.3.0"
-    "warning" "^4.0.3"
-
-"iframe-resizer@^4.3.0":
-  "integrity" "sha512-gOWo2hmdPjMQsQ+zTKbses08mDfDEMh4NneGQNP4qwePYujY1lguqP6gnbeJkf154gojWlBhIltlgnMfYjGHWA=="
-  "resolved" "https://registry.npmjs.org/iframe-resizer/-/iframe-resizer-4.3.2.tgz"
-  "version" "4.3.2"
-
 "ignore@^5.2.0":
   "integrity" "sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ=="
   "resolved" "https://registry.npmjs.org/ignore/-/ignore-5.2.4.tgz"
@@ -1857,7 +1843,7 @@
   "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   "version" "4.17.21"
 
-"loose-envify@^1.0.0", "loose-envify@^1.1.0", "loose-envify@^1.4.0":
+"loose-envify@^1.1.0", "loose-envify@^1.4.0":
   "integrity" "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q=="
   "resolved" "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
   "version" "1.4.0"
@@ -2112,7 +2098,7 @@
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
   "version" "1.2.1"
 
-"prop-types@^15.8.1", "prop-types@>=15.7.2":
+"prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -2147,7 +2133,7 @@
   dependencies:
     "safe-buffer" "^5.1.0"
 
-"react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>= 16.8.0", "react-dom@>=16.8.0", "react-dom@>=17.0.0", "react-dom@18.2.0":
+"react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>= 16.8.0", "react-dom@>=17.0.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -2170,7 +2156,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
   "version" "18.2.0"
 
-"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8.0", "react@>=17.0.0", "react@18.2.0":
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=17.0.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -2556,13 +2542,6 @@
   "integrity" "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg=="
   "resolved" "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
   "version" "8.3.2"
-
-"warning@^4.0.3":
-  "integrity" "sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w=="
-  "resolved" "https://registry.npmjs.org/warning/-/warning-4.0.3.tgz"
-  "version" "4.0.3"
-  dependencies:
-    "loose-envify" "^1.0.0"
 
 "which-boxed-primitive@^1.0.2":
   "integrity" "sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg=="
