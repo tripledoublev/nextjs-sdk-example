@@ -1,5 +1,4 @@
 import { TweedFrontendSdkProvider } from "@paytweed/frontend-sdk-react";
-import { Environment } from "@paytweed/shared-sdk";
 import type { AppProps } from "next/app";
 import { useCallback } from "react";
 
@@ -17,10 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <div style={{ width: "99vw", height: "90vh" }}>
-      <TweedFrontendSdkProvider
-        environment={Environment.demo}
-        sendMessageToBackend={sendMessageToBackend}
-      >
+      <TweedFrontendSdkProvider sendMessageToBackend={sendMessageToBackend}>
         <Component {...pageProps} />
       </TweedFrontendSdkProvider>
     </div>
