@@ -3,6 +3,7 @@
 To launch example:
 
 - Run [backend example](https://github.com/paytweed/backend-sdk-nodejs-example)
+- Run `npm i next`
 - Run `npm install`
 - Run `npm run dev`
 
