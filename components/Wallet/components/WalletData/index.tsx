@@ -59,7 +59,7 @@ const WalletData = () => {
 
     await sdk.coin.sendToWallet({
       walletAddress: destinationAddress,
-      cryptoCurrencyAmount: "1",
+      value: "1",
       blockchainId: "ethereumGoerli",
     });
   };
