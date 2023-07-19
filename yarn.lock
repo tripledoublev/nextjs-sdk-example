@@ -1256,7 +1256,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@paytweed/backend-sdk@^1.0.1-beta.0":
+"@paytweed/backend-sdk@1.0.1-beta.0":
   version "1.0.1-beta.0"
   resolved "https://registry.yarnpkg.com/@paytweed/backend-sdk/-/backend-sdk-1.0.1-beta.0.tgz#a52a5b8c1a50a59bdb39e93575c3e3fb2eb0ca73"
   integrity sha512-mkfMhge0rIWfxGmkAyXjUBB5N62F2h9yZ7FFphLygue3l4YhOkG2NoJOHSdLXp7pTvub5JUHmGZkRn3eGpxc+w==
@@ -1268,10 +1268,10 @@
     graphql-tag "2.12.6"
     path "0.12.7"
 
-"@paytweed/frontend-sdk-react@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@paytweed/frontend-sdk-react/-/frontend-sdk-react-1.0.0.tgz#c8f16bdc285ed8ae3f20c8cc6961070caad0b51a"
-  integrity sha512-wBCuWNC0jFCRuZbRsPWIlGnliTA13Om7qqOhfcHPh2rlf0bVQklZLKhK7IJYoJTFd13d56UDVhtOyhZYnEck9g==
+"@paytweed/frontend-sdk-react@1.0.1-beta.0":
+  version "1.0.1-beta.0"
+  resolved "https://registry.yarnpkg.com/@paytweed/frontend-sdk-react/-/frontend-sdk-react-1.0.1-beta.0.tgz#a7ee5e69e7b48c101d3743efed0e1f6698f72f48"
+  integrity sha512-3qbFNS3W+SlcIXxzCOD9n6A8yokxYL1sN4kHuhXJK/a+nTG7FZ7hUWZxAPBvOU7eqDmCW4XM9zTbXZ4HltGZHQ==
   dependencies:
     "@tanstack/react-query" "4.29.5"
 
@@ -1829,9 +1829,9 @@ camelize@^1.0.0:
   integrity sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ==
 
 caniuse-lite@^1.0.30001406, caniuse-lite@^1.0.30001503:
-  version "1.0.30001516"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001516.tgz#621b1be7d85a8843ee7d210fd9d87b52e3daab3a"
-  integrity sha512-Wmec9pCBY8CWbmI4HsjBeQLqDTqV91nFVR83DnZpYyRnPI1wePDsTg0bGLPC5VU/3OIZV1fmxEea1b+tFKe86g==
+  version "1.0.30001517"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001517.tgz#90fabae294215c3495807eb24fc809e11dc2f0a8"
+  integrity sha512-Vdhm5S11DaFVLlyiKu4hiUTkpZu+y1KA/rZZqVQfOD5YdDT/eQKlkt7NaE0WGOFgX32diqt9MiP9CAiFeRklaA==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -2112,9 +2112,9 @@ ecdsa-sig-formatter@1.0.11:
     safe-buffer "^5.0.1"
 
 electron-to-chromium@^1.4.431:
-  version "1.4.463"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.463.tgz#8eb04355f24fef5c8097661d14e143f6d8554055"
-  integrity sha512-fT3hvdUWLjDbaTGzyOjng/CQhQJSQP8ThO3XZAoaxHvHo2kUXiRQVMj9M235l8uDFiNPsPa6KHT1p3RaR6ugRw==
+  version "1.4.464"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.464.tgz#2f94bad78dff34e527aacbfc5d0b1a33cf046507"
+  integrity sha512-guZ84yoou4+ILNdj0XEbmGs6DEWj6zpVOWYpY09GU66yEb0DSYvP/biBPzHn0GuW/3RC/pnaYNUWlQE1fJYtgA==
 
 emoji-regex@^9.2.2:
   version "9.2.2"
