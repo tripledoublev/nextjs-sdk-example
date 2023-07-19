@@ -1,8 +1,6 @@
-# Example of Tweed frontend Nextjs SDK integration
+# Example of Tweed Nextjs SDK integration
 
 To launch example:
-
-- Run the [backend example](https://github.com/paytweed/backend-sdk-nodejs-example)
 
 - Run `npm i next`
 - Run `npm install`
