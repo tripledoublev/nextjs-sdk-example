@@ -4,7 +4,7 @@ import { useCallback } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
   const sendMessageToBackend = useCallback(async (message: string) => {
-    const response = await fetch("http://localhost:3010/message", {
+    const response = await fetch("/api/tweed", {
       body: JSON.stringify({ message }),
       headers: { "Content-Type": "application/json" },
       method: "POST",

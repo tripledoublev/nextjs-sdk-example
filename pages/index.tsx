@@ -1,2 +1,11 @@
-import Wallet from "../components/Wallet"
-export default Wallet
+import SettingSection from "@/components/Settings";
+import Wallet from "../WalletPage";
+
+export default function App() {
+  return (
+    <>
+      <SettingSection />
+      <Wallet />
+    </>
+  );
+}
