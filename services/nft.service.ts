@@ -17,7 +17,7 @@ class NftService {
       chain: "ethereumGoerli",
       title: "NFT_TITLE",
       description: "NFT_DESCRIPTION",
-      abi: "mint(address,string)",
+      abi: "mint(toAddress address, tokenUri string)",
     };
   }
 }
