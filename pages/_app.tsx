@@ -1,7 +1,7 @@
 import { TweedFrontendSdkProvider } from "@paytweed/frontend-sdk-react";
 import type { AppProps } from "next/app";
 import { useCallback } from "react";
-import { defaultBlockchainIds } from '../services/tweed.service';
+import { defaultBlockchainIds } from '../services/constants';
 
 export default function App({ Component, pageProps }: AppProps) {
   const sendMessageToBackend = useCallback(async (message: string) => {
