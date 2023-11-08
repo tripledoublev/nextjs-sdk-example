@@ -13,8 +13,14 @@ const Wallet = () => {
 
   useEffect(() => {
     if (walletExists === undefined) return;
-    if (!walletExists)
-      return createWallet({ callbacks: { onSuccess: onWalletCreated } });
+    const handleCreateWallet = async () => {
+      if (walletExists === false) {
+        await createWallet({ callbacks: { onSuccess: onWalletCreated } });
+      }
+    };
+  
+    // Call the async function
+    handleCreateWallet();
   }, [walletExists]);
 
   const renderContent = () => {
